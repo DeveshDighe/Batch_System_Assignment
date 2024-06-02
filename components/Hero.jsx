@@ -50,7 +50,7 @@ const Hero = () => {
           <figcaption className='absolute left-48 top-28'>
             <Image width={450} height={450} src={'/images/iPhone-13-Pro-Front (2).png'} alt='iPhone' />
           </figcaption>
-          <figcaption className='absolute right-20 top-80 left-12 -z-10 max-md:top-44 '>
+          <figcaption className='absolute max-lg:hidden right-20 top-80 left-12 -z-10 max-md:top-44 '>
             <Image className='rotate-180' width={470} height={470} src={'/images/red.png'} alt='Decorative Red Element' />
           </figcaption>
         </div>
