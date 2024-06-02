@@ -16,7 +16,7 @@ const Page = () => {
     navigate.push("/")
   }
   return (
-    <div className=' h-[600px] w-[900px] max-md:flex-col max-md:h-[1000px] max-md:w-full max-md:my-1 m-auto gap-x-2  flex justify-between my-6 mb-24 rounded-2xl max-md:mb-24 max-md:gap-y-2 '>
+    <div className=' h-[600px] w-[900px] max-md:flex-col max-md:h-[1000px] max-md:w-full max-md:my-1 m-auto gap-x-2  flex justify-between my-6 mb-72 rounded-2xl max-md:mb-24 max-md:gap-y-2 '>
       <div className=' w-full border rounded-2xl py-6 px-2'>
         <p className=' text-4xl text-center font-SecondF'>{Pricing[0].plan} Plan</p>
         <div className=' flex gap-y-4 mt-10 flex-col'>{Pricing[0].features.map((fea) => (

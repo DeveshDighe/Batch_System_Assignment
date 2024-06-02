@@ -11,7 +11,7 @@ const Navbar = () => {
     if (id === "Home") {
       return navigate.push('/')
     }
-    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
   return (
     <div>
