@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
         <div className='relative'>
           <figcaption className='flex justify-center'>
-            <Image width={500} height={400} src={'/images/strip.png'} alt='Strip Image' />
+            <Image width={500} height={400} src={'/images/Group 35924.png'} alt='Strip Image' />
             <Image className='absolute top-8' width={45} height={45} src={'/images/Star 8.png'} alt='Star' />
           </figcaption>
         </div>
